@@ -30,7 +30,7 @@ services:
 
   nginx-proxy:
     image: jwilder/nginx-proxy
-    restart: alwasys
+    restart: always
     ports:
       - "80:80"
       - "443:443"
